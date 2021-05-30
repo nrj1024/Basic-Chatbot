@@ -4,4 +4,4 @@ from chatterbot.trainers import ListTrainer
 chatbot = ChatBot('Bot')
 trainer = ListTrainer(chatbot)
 
-trainer.train() #Put a conversation here in list of string to train from.
+trainer.train() #Put a conversation here in list of strings to train from.
