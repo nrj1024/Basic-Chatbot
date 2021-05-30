@@ -1,11 +1,8 @@
 from flask import Flask, request
 from flask_cors import CORS
 from chatterbot import ChatBot
-from chatterbot.trainers import ChatterBotCorpusTrainer
 
-chatbot = ChatBot('Neeru')
-trainer = ChatterBotCorpusTrainer(chatbot)
-#trainer.train("chatterbot.corpus.english")     #only for training
+chatbot = ChatBot('Bot')
 
 app = Flask(__name__)
 CORS(app)

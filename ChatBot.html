@@ -70,7 +70,7 @@
             }
 
             async function getReply(){
-                const request = new Request('http://192.168.0.102:5000/api/chatbot', {
+                const request = new Request('http://localhost:5000/api/chatbot', {
                   method: "POST",
                   body: '{"text": "'+input.value.trim()+'"}',
                   headers: {"Content-type": "application/json; charset=UTF-8", "Accept": "application/json; charset=UTF-8"}
